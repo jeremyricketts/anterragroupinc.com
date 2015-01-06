@@ -1,0 +1,540 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass";
+@import "normalize";
+@import "grid";
+// @import "font-awesome";
+
+// GOOGLE FONTS:
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,800);
+
+// VARIABLES
+$brandColor: #7e1416;
+$baseColor: #efefef;
+$textColor: darken($baseColor, 70%);
+$fontSerif: georgia, serif;
+$fontSpecial: 'Open Sans', sans-serif;
+
+// REUSABLE CLASSES
+ .elegantType {
+ 	font-family: $fontSerif;
+ 	opacity: .8;
+ 	font-style: italic;
+ }
+.btn,
+.btn:link,
+.btn:visited { 
+  border-radius: .3em;
+  border-style: solid;
+  border-width: 1px;
+  display: inline-block;
+  padding: .3em .8em;
+  text-decoration: none; 
+  transition: color .4s, background-color .4s, border .4s;
+}
+.btn:hover,
+.btn:focus { 
+  color: darken($brandColor, 20%); 
+  border: 1px solid darken($brandColor, 20%); 
+  transition: background-color .3s, color .3s, border .3s;
+}
+.center {
+	text-align: center;
+}
+.hideSmallScreen {
+	@media screen and (max-width: 480px) { // Target > phone.
+		display:none;
+	}
+}
+.hideTouch {
+	html.touch & {
+		display:none;
+	}
+}
+
+// BASICS & FIXES
+*, *:before, *:after { @include box-sizing(border-box);} // Crazy, right? http://learnlayout.com/box-sizing.html
+textarea { resize: vertical; } //Allow only vertical resizing of textareas.
+html, button, input, select, textarea {
+    color: $textColor;
+}
+
+//BODY
+body {
+	color: $textColor;
+	background: $baseColor;
+	line-height: 1.5rem;
+	font-family: $fontSpecial; 
+}
+blockquote {
+	line-height: 1.8rem;
+}
+a, a:visited {
+	color: $brandColor;
+}
+h1, h2, h3, h4, h5 {
+	font-weight:lighter;
+	margin-top:2em;
+	line-height:1.8rem;
+}
+
+.bgPattern {
+	background:url(/img/cream_dust.png);
+}
+.bgWaterwood {
+	background:url(/img/bgWaterwood.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+    background-size: 100% auto;
+}
+.bgGreens {
+	background:url(/img/bgGreens.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+    background-size: 100% auto;
+}
+.bgWater {
+	background:url(/img/bgWater.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+    background-size: 100% auto;
+}
+.bgRain {
+	background:url(/img/bgRain.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+    background-size: 100% auto;
+}
+.bgWaterBeads {
+	background:url(/img/bgWaterBeads.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+    background-size: 100% auto;
+}
+.bgGenesis {
+	background:url(/img/bgGenesis2.jpg); background-color: #4f8735;
+	background-repeat: no-repeat;
+	background-position: center top;
+    background-size: 100% auto;
+    color:#efefef;
+    a, a:visited {
+		color:#daff75;
+	}
+}
+
+.container {
+	max-width: 900px;
+	margin:0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.hor-list {
+	list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+	li { 
+		display:inline;
+		a {
+			display: inline-block;
+		}
+	}
+}
+
+header {
+	//background-color: $brandColor;
+	//background-image:url(/img/header-bg.jpg);
+	background-color:$baseColor;
+	background-repeat: no-repeat;
+	background-position: top center;
+	text-align: center;
+	padding:80px 0 10px 0;
+	// color: $baseColor;
+	// a, a:visited {
+	// 	color:$baseColor;
+	// }
+	//}
+	.tagline {
+		margin:0 0 60px 0;
+		@extend .elegantType;
+		color: darken($brandColor, 30%);
+		//text-shadow: 0 1px 0 rgba(255,255,255,.2);
+		font-size: 1.2rem;
+	}
+}
+
+.nav {
+	li a {
+		padding:.5rem 1rem;
+		text-decoration: none;
+		font-weight: 700;
+		@include transition(color, .2s);
+		&:hover {
+			color:$textColor;
+		}
+		&.active {
+			color:$textColor;
+			text-decoration: underline;
+		}
+		@media screen and (max-width: 780px) { // Tablet portrait
+			padding:.2rem .8rem;
+			margin-bottom: 1rem;
+			background:rgba(0,0,0,.2);
+			border-radius:4px;
+		}
+	}
+	&.subNav {
+		padding-top: 1em;
+		li a {
+			font-weight: 200;
+			&.active {
+				//text-decoration:underline;
+			}
+		}
+	}
+}
+.photo {
+	width: 100%;
+	max-width: 100%;
+	margin:10px 0;
+	border:4px solid #fff;
+}
+
+footer {
+	background: darken($baseColor, 60%);
+	color: darken($baseColor, 30%);
+	padding:30px 0;
+	ul.hor-list li {
+		display:inline-block;
+		padding:0 10px;
+		a {
+			color: $baseColor;
+		}
+	}
+}
+
+// GENERIC PAGE
+.content {
+	@include clearfix;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	&.contentNarrow {
+		max-width:800px;
+		margin:0 auto;
+	}
+	h1 {
+		//text-align: center;
+	}
+	.contentMain {
+		@media screen and (min-width: 700px) {
+			@include grid(8,6);
+			padding-right: 40px;
+		}
+	}
+	.contentSidebar {
+		@media screen and (min-width: 700px) {
+			@include grid(8,2);
+		}
+		img {
+			@extend .photo;
+		}
+	}
+	// &.contentHome {
+	// 	p img {
+	// 		display:inline-block; float:left;
+	// 	}
+	// }
+}
+.pageQuote {
+	@extend .elegantType;
+	max-width: 800px;
+	text-align: center;
+	padding:20px 0;
+	margin:0 auto;
+	border-top: 1px solid lighten($textColor, 40%);
+	border-bottom: 1px solid lighten($textColor, 40%);
+	@media screen and (max-width: 480px) { // Target phone.
+		max-width:80%;
+	}
+	margin-bottom:20px;
+}
+.well {
+	padding:10px 15px;
+	margin-bottom: 30px;
+	background: lighten($baseColor, 5%);
+	border-bottom:2px solid darken($baseColor, 2%);
+	border-right:2px solid darken($baseColor, 2%);
+}
+.cols2 {
+	@include clearfix;
+	.col {
+		@media screen and (min-width: 700px) {
+			@include grid(2,1);
+		}
+		&.who {
+			h3 {
+				border-bottom:2px solid darken($baseColor, 8%);
+				line-height: 2rem;
+			}
+		}
+	}
+	.methods {
+		background:#fff;
+		@include clearfix;
+		margin-top:2em;
+		padding:0 30px 15px 30px;
+		@media screen and (min-width: 700px) {
+			margin-right:40px;
+		}
+	}
+}
+.contactForm {
+	input, textarea {
+		width: 100%;
+		border:1px solid darken($baseColor, 8%);
+		margin-bottom:20px;
+		padding:.5em;
+		&.invalid {
+			border:1px solid #800000;
+		}
+	}
+	textarea {
+		min-height: 300px;
+	}
+	.submit {
+		color:#fff;
+		background:#408000;
+		border:1px solid #005200;
+	}
+	.error {
+		background: #ffc3be;
+		color:#800000;
+		border:1px solid #800000;
+		margin-bottom: 1em;
+		padding:.5em 20px;
+	}
+}
+
+// HOMEPAGE
+.homeCols {
+	@include clearfix;
+	margin:30px 0 40px 0;
+	> .col {
+		//font-size: 1.5em;
+		@media screen and (min-width: 700px) {
+			@include grid(3,1);
+		}
+		text-align:center;
+		h2 {
+			margin-bottom:0;
+		}
+		a {
+			display: block;
+			text-decoration: none;
+			span {
+
+			}
+			p {
+				//@include transition(all, .2s, ease-in);
+				margin:0;
+				color: $textColor;
+			}
+			&:hover {
+				p {
+					//transform:translate(0, -3px);
+				}
+			}
+			img {
+				@extend .photo;
+				width:90%;
+				margin:0 5%;
+			}
+		}
+	}
+}
+
+.longTagline {
+	@extend .elegantType;
+	font-size: 1.4rem;
+	max-width: 700px;
+	text-align: center;
+	padding:20px 0;
+	margin:80px auto 0 auto;
+	border-top: 1px solid lighten($textColor, 40%);
+	border-bottom: 1px solid lighten($textColor, 40%);
+	@media screen and (max-width: 480px) { // Target phone.
+		max-width:80%;
+	}
+}
+
+.homeBlogPreview {
+	@include clearfix;
+	margin:20px 0;
+	> .col {
+		a {
+			text-decoration: none;
+		}
+		@media screen and (min-width: 700px) { // Target > phone.
+			@include grid(3,1);
+		}
+		padding:0 10px;
+		.date {
+			color: lighten($textColor, 20%);
+			font-size: .8rem;
+		}
+	}
+}
+.fb-like-box {
+	background:#fff;
+}
+.socialCols {
+	@include clearfix;
+	.col {
+		text-align: center;
+		margin:0 auto 40px 0;
+		@media screen and (min-width: 1100px) { // Target > phone.
+			@include grid(2,1);
+		}
+	}
+}
+
+// ABOUT:
+.googleCal {
+	width: 100%;
+	height:800px;
+	@extend .hideSmallScreen;
+}
+
+//EVENTS:
+.event {
+	@extend .well;
+	h3 {
+		margin:0;
+	}
+	p {
+		font-size:.8rem;
+		&.eventDate {
+			color: lighten($textColor,20%);
+		}
+		margin:0;
+		line-height: 1.2rem;
+	}
+}
+.eventDetails {
+	.photo {
+		float: right;
+		// margin-top:30px;
+		width: auto;
+		max-width: 40%;
+		margin-left: 10px;
+	}
+	h1 {
+		margin-bottom:0;
+	}
+	h2 {
+		margin-top: .5em;
+		color: lighten($textColor,20%);
+		text-align: center;
+	}
+}
+
+// BLOG
+.contentArticleList {
+	article {
+		@include clearfix;
+		border-bottom:2px solid darken($baseColor, 4%);
+		.date {
+			color: lighten($textColor, 30%);
+		} 
+		.photo {
+			float: right;
+			margin-top:80px;
+			width: auto;
+			max-width: 40%;
+			max-height: 100px;
+			margin-left: 10px;
+		}
+	}
+}
+.backPage {
+	text-decoration:none;
+}
+.articleMeta {
+	color: lighten($textColor, 30%);
+	text-align: right;
+}
+.dateLight {
+	color: lighten($textColor, 30%);
+}
+.contentArticleEntry {
+	.photo {
+		float: right;
+		width: 40%;
+		margin-left: 10px;
+	}
+}
+
+// DONATE
+.donate {
+	h3 {
+		color: $brandColor;
+		margin-top:0;
+	}
+	.q {
+		font-weight: bold;
+	}
+	.a {
+		padding-left: 20px;
+		border-left:2px solid darken($baseColor, 4%);
+	}
+}
+
+// CONTACT
+
+.colsContact {
+	@include clearfix;
+		margin:30px 0 20px 0;
+		> .col {
+			@media screen and (min-width: 700px) {
+				@include grid(4,1);
+			}
+			@media screen and (min-width: 481px) and (max-width:699px) {
+				@include grid(2,1);
+			}
+			@media screen and (max-width: 480px) {
+				border-bottom:2px solid darken($baseColor, 10%);
+			}
+		}
+}
+.contact .well {
+	padding-top:30px;
+}
+
+.genesisHead {
+	text-align:center;
+	img {
+		max-width:50%; //img is 800w
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
