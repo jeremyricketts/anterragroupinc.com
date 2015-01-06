@@ -1,5 +1,5 @@
 ---
-time: 1420579732
+time: 1420580218
 inventory:
   /home/index.html:
     md5: 70cc4e69d02edc4b607c3d371900a4be
@@ -53,8 +53,8 @@ inventory:
     md5: f484f72aecce3638428323672e79ab24
     time: 1420579697
   /genesis/index.html:
-    md5: 692863ef75d2fd346a3340c96bdeb784
-    time: 1420579697
+    md5: 1a0b0c5e1ff83eb2a381b035537a0d98
+    time: 1420580215
   /contact/index.html:
     md5: 85f709401c2a93760b60f3262fab1f6e
     time: 1420579697
@@ -83,11 +83,11 @@ inventory:
     md5: c288afd2005de0487ec5eb20017b1250
     time: 1420579698
   /sitemap.xml:
-    md5: 0c01ebfecbcdf9e563f20941eba18a9c
-    time: 1420579698
+    md5: 711f0e34851ba8cbed1ee3d8c8ebb478
+    time: 1420580216
   /feed.xml:
-    md5: f5c0970fd78ea4d13b8febbe9860fa7f
-    time: 1420579698
+    md5: fccd55caf1d2ef4b51c3c1691c2d03d6
+    time: 1420580216
   /config.rb:
     md5: 1e34aa0a8533d12966298997aad5079f
     time: 1420579698
