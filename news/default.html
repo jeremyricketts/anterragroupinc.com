@@ -1,0 +1,65 @@
+{% include 'includes/header' %}
+{% include 'includes/nav' %}
+
+<div class="bgRain">
+
+    {% if type != "post" %}
+    <div class="container content contentArticleList">
+
+      <h1>{{title}}</h1>
+      
+      {% for post in site.pages.news.posts %}
+      <article>
+        {% for asset in post.assets %}
+          {% if asset.type == 'image' %}
+          <img class="photo" src="{{asset.url}}">
+          {% elsif asset.type == 'audio' %}
+          <audio><source src="{{asset.url}}" type="{{asset.content_type}}"></audio>
+          {% elsif asset.type == 'video' %}
+          <video><source src="{{asset.url}}" type="{{asset.content_type}}"></video>
+          {% elsif asset.type == 'other' %}
+          <a href="{{asset.url}}">Download {{asset.filename}}</a>
+          {% endif %}
+        {% endfor %}
+        <h3><a href="{{post.url}}">{{post.title}}</a> &nbsp;&nbsp;<span class="dateLight">{{post.date | date: "%b %d, %Y"}}</span></h3>
+        <p>{{post.body | strip_html | truncatewords: 50}}</p>
+        <p><a href="{{post.url}}" class="btn">Read</a></p>
+      </article>
+      {% endfor %}
+      
+    </div><!-- /content -->
+    {% endif %}
+
+    {% if type == "post" %}
+    <div class="container content contentArticleEntry">
+
+      <a class="backPage" href="/news"><i class="fa fa-chevron-left"></i> All articles</a>
+
+      <h1>{{title}}</h1>
+
+      {% for asset in assets %}
+        {% if asset.type == 'image' %}
+        <img class="photo" src="{{asset.url}}">
+        {% elsif asset.type == 'audio' %}
+        <audio><source src="{{asset.url}}" type="{{asset.content_type}}"></audio>
+        {% elsif asset.type == 'video' %}
+        <video><source src="{{asset.url}}" type="{{asset.content_type}}"></video>
+        {% elsif asset.type == 'other' %}
+        <a href="{{asset.url}}">Download {{asset.filename}}</a>
+        {% endif %}
+      {% endfor %}
+
+      {{body}}
+
+      <p class="articleMeta">{{ date  | date: "%B %d, %Y"}}</p>
+
+      <!-- upgrade Siteleaf account to do this:
+      <p class="blogMeta">{{ date  | date: "%B %d, %Y"}} by {{author}}</p>
+      -->
+
+    </div><!-- /content -->
+    {% endif %}
+
+</div>
+
+{% include 'includes/footer' %}

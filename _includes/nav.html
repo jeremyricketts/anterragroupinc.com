@@ -1,0 +1,18 @@
+      <header class="bgPattern">
+
+        <div class="container">
+          
+          <!-- Logo area -->
+          <img src="/img/anterra-logo.png" width="200" height="69">
+          <!-- <h1><a href="/">{{site.title}}</a></h1> -->
+          <p class="tagline">{{site.meta['tagline']}}</p>
+
+          <ul class="nav hor-list">
+          {% for page in site.pages %}
+            <li><a href="{{page.url}}"{% if page.url == url %} class="active"{% endif %}>{{page.title}}</a></li>
+          {% endfor %}
+          </ul>
+
+        </div><!-- /container -->
+
+      </header>

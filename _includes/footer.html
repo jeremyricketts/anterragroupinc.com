@@ -1,0 +1,19 @@
+    <footer>
+      
+      <div class="container">
+
+        <ul class="hor-list">
+          {% for page in site.pages %}
+            <li><a href="{{page.url}}"{% if page.url == url %} class="active"{% endif %}>{{page.title}}</a></li>
+          {% endfor %}
+            <li><a href="/privacy-policy/" title="Privacy Policy">Privacy Policy</a></li>
+          </ul>
+
+        <p class="center">&copy; Anterra Group Inc.</p>
+
+      </div>
+
+    </footer>
+
+  </body>
+</html>

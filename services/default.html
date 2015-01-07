@@ -1,0 +1,45 @@
+{% include 'includes/header' %}
+{% include 'includes/nav' %}
+
+    <div class="bgWater">
+
+    <ul class="nav subNav hor-list">
+    <!-- LIST subpages from this point. Wow. -->
+    {% for page in site.pages %}
+    {% for subpage in page.pages %}
+    {% if subpage.parent.url == "/services" %}
+      <li><a href="{{subpage.url}}"{% if subpage.url == url %} class="active"{% endif %}>{{subpage.title}}</a></li>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+    </ul>
+    
+      <div class="container content">
+
+        <h1>{{title}}</h1>
+
+        <div class="contentMain">
+          
+          {{body}}
+
+        </div>
+
+        <div class="contentSidebar">
+          {% for asset in assets %}
+            {% if asset.type == 'image' %}
+            <img src="{{asset.url}}">
+            {% elsif asset.type == 'audio' %}
+            <audio><source src="{{asset.url}}" type="{{asset.content_type}}"></audio>
+            {% elsif asset.type == 'video' %}
+            <video><source src="{{asset.url}}" type="{{asset.content_type}}"></video>
+            {% elsif asset.type == 'other' %}
+              <a href="{{asset.url}}" class="btn"><i class="fa fa-cloud-download"></i> Download {{asset.filename}}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+
+      </div><!-- /container -->
+
+    </div>
+
+{% include 'includes/footer' %}
