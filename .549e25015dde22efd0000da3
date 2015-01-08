@@ -1,93 +1,93 @@
 ---
-time: 1420580218
+time: 1420692395
 inventory:
   /home/index.html:
-    md5: 70cc4e69d02edc4b607c3d371900a4be
-    time: 1420579695
+    md5: 96e207bace1ab7bbe8756b38fe626e1e
+    time: 1420692383
   /index.html:
-    md5: 70cc4e69d02edc4b607c3d371900a4be
-    time: 1420579695
+    md5: 96e207bace1ab7bbe8756b38fe626e1e
+    time: 1420692383
   /services/index.html:
-    md5: 27752e82bdf5ab76808179146622473d
-    time: 1420579695
+    md5: 9ce38d8c35f9c399d611c353f64df71e
+    time: 1420692383
   /news/index.html:
-    md5: d7ff6c31dc851b036ccde1e2abb6211f
-    time: 1420579696
-  /news/omri-approves-genesis-ac02/index.html:
-    md5: cd00a677980286ccde4374eb69b474d1
-    time: 1420579696
+    md5: bde38f93f5d49e772909e4dbaddd2d2b
+    time: 1420692384
   /news/anterra-maintains-exclusive-ownerhip-of-genesis-ac02-patent/index.html:
-    md5: 12db1e130b1280855e6af4220aefae25
-    time: 1420579696
+    md5: 5ce2c254171a0130f09c79bb17c0cbd1
+    time: 1420692384
+  /news/omri-approves-genesis-ac02/index.html:
+    md5: 47ddc066381e822e8fbe58a0cd6a7ba1
+    time: 1420692384
   /news/genesis-aco2-patent-issues/index.html:
-    md5: 552ef750d8ae2d4b058af86ea4ea5549
-    time: 1420579696
+    md5: 1e199139ffdbba8647f7a5bf350d38e4
+    time: 1420692384
   /news/anterra-makes-top-diversity-business-list-for-2009/index.html:
-    md5: f0033c21eecec9fc755a2c41eaa78338
-    time: 1420579696
+    md5: bef191dd0c1e5726b40fb34d2edad0d4
+    time: 1420692384
   /news/raw-material-prices-continue-to-esclate/index.html:
-    md5: 4d80bae571b39246c3b291849ebea900
-    time: 1420579696
+    md5: 42bcfd1df25cc1030f6f1271745622df
+    time: 1420692384
   /news/life-time-member-of-ccof/index.html:
-    md5: e488f72a201265e3c24129fde9b5d007
-    time: 1420579696
+    md5: a7712dd249bcf0968decb88bd6f9f170
+    time: 1420692384
   /news/diversity-business-awards-anterra-group-inc/index.html:
-    md5: 90f0aa02f71e6ec67139d2e9a714cba0
-    time: 1420579696
+    md5: 3635dc4971874d768454d85fe721f012
+    time: 1420692384
   /news/rising-prices-for-sulfuric-acid/index.html:
-    md5: 6bb808a76fa8896e5226c75449f96e8c
-    time: 1420579696
+    md5: e22aa9bc88434854a9d5a4c243d9f724
+    time: 1420692384
   /news/anterra-group-has-moved/index.html:
-    md5: 6d398d80a072f3a1b1dc4cd8342c6b75
-    time: 1420579696
+    md5: e21ff31bb6ac0eae1e2e8f423fd13491
+    time: 1420692384
   /news/see-anterra-group-at-ccof-conference/index.html:
-    md5: a36c59beb0091e6ae2fd3d8f6d696a16
-    time: 1420579696
+    md5: de89f6094752a9558443fe9b59ed8f66
+    time: 1420692384
   /news/welcome-to-anterra-shea-jones/index.html:
-    md5: ef3a446cc9393459ba0481bff4e51109
-    time: 1420579696
+    md5: b32cfe92d3c44ba1004f233c59d87cef
+    time: 1420692384
   /news/archive/index.html:
-    md5: 65a1cba10289c9b6d3019cb5e0cc3149
-    time: 1420579696
+    md5: 6de008e1f437ca53724858395709795b
+    time: 1420692384
   /news/tags/index.html:
-    md5: f484f72aecce3638428323672e79ab24
-    time: 1420579697
+    md5: 55c5b4ad8b80d592a0a38324c3ded4a3
+    time: 1420692384
   /genesis/index.html:
-    md5: 1a0b0c5e1ff83eb2a381b035537a0d98
-    time: 1420580215
+    md5: dc61fc7f18b2f756c050a2230317b141
+    time: 1420692385
   /contact/index.html:
-    md5: 85f709401c2a93760b60f3262fab1f6e
-    time: 1420579697
+    md5: b2b3d9883f8afb0ad57a323fc13fbadb
+    time: 1420692385
   /privacy-policy/index.html:
-    md5: 940e494e603322389b3262417b245d92
-    time: 1420579697
+    md5: 587fbcdcb6b5bd60729386856d14db52
+    time: 1420692385
   /thanks/index.html:
-    md5: 006bd7fc2f2c3999ce0ac43770ddd202
-    time: 1420579697
+    md5: bbc048b924ac0ab71104848c63ba3d9d
+    time: 1420692385
   /services/cleaning/index.html:
-    md5: c16c757ff1c7dcec65405bce31b1dc5e
-    time: 1420579697
+    md5: f81bd3147b3a032f61935d8b98e9bad0
+    time: 1420692385
   /services/organic-food-processing/index.html:
-    md5: 61e35f022953156e328ad6f4c0382022
-    time: 1420579697
+    md5: da06b387b0457cf121760dc0fdc4a83b
+    time: 1420692385
   /services/waste-water-treatment/index.html:
-    md5: d655f2507aad7ea2736d8f7c3766a33e
-    time: 1420579697
+    md5: 53df7fbc34449f85e26f77529edf6b1f
+    time: 1420692385
   /services/water-treatment/index.html:
-    md5: 4ef79cd3b1e04a2e69edf134f4f6a8c8
-    time: 1420579698
+    md5: 5299ef149744e444474725ceb4f5df0a
+    time: 1420692385
   /services/consulting/index.html:
-    md5: e780c1b30b362df704d1a7a569e30fa9
-    time: 1420579698
+    md5: 99c9f2d18c5350842b29b355cadc7f84
+    time: 1420692385
   /CNAME:
     md5: c288afd2005de0487ec5eb20017b1250
     time: 1420579698
   /sitemap.xml:
-    md5: 711f0e34851ba8cbed1ee3d8c8ebb478
-    time: 1420580216
+    md5: 6318a6620acaeaa711ad090c912f0f3a
+    time: 1420692385
   /feed.xml:
-    md5: fccd55caf1d2ef4b51c3c1691c2d03d6
-    time: 1420580216
+    md5: 0cb93a6d3d2074889431bb5e46299cec
+    time: 1420692385
   /config.rb:
     md5: 1e34aa0a8533d12966298997aad5079f
     time: 1420579698
@@ -160,15 +160,9 @@ inventory:
   /assets/genesis-800w.png:
     md5: 27b260dc57c4ab04d13fd5ccfd237dba
     time: 1420579704
-  /css/screen.css:
-    md5: 21ef493a9f75bea8acbf9accdddab81e
-    time: 1420579704
   /img/anterra-logo.png:
     md5: 8b5f9fc02d2d0f62596e597a7b7d88a5
     time: 1420579704
-  /img/bgGenesis.jpg:
-    md5: 7c244c2cf9cb192af7b51b946750a492
-    time: 1420579705
   /img/bgGenesis2.jpg:
     md5: 1514e8b9b99d262c378886d8d0c82875
     time: 1420579706
@@ -211,12 +205,57 @@ inventory:
   /img/light_wool.png:
     md5: 30b87f688d085159b92f8adbf29c4fad
     time: 1420579709
+  /css/screen.css:
+    md5: 148b4cbda608f5191ae373c58cffb0a0
+    time: 1420692385
+  /img/bgGenesis.jpg:
+    md5: 895474fc8ab38f15e946b39606b8ed7c
+    time: 1420692386
+  /img/c02.jpg:
+    md5: ce7cbd26569fa9e2a490e906122487ad
+    time: 1420692386
+  /img/drop1.jpg:
+    md5: 741f3039bc3af06ffe14e2523855a3d0
+    time: 1420692386
+  /img/drop2.jpg:
+    md5: 541317eaee2ce4ae75870772ba426834
+    time: 1420692386
+  /img/drop3.jpg:
+    md5: 317119ffa2d1095f780cfc36f9e226e4
+    time: 1420692386
+  /img/frog.jpg:
+    md5: 6f8422fe6d7784be0f30672bd761b887
+    time: 1420692386
+  /img/fruit.jpg:
+    md5: 373bbecbd01cd4dc88696f6fbc0cee13
+    time: 1420692387
+  /img/water.2png:
+    md5: b334f906f4653d7ce802a4b5e35e3148
+    time: 1420692387
+  /img/water.jpg:
+    md5: 0efc88adfa9b6328f93fb3593a723740
+    time: 1420692388
+  /img/water2.jpg:
+    md5: a36bf496738894b05d6e139344e6163c
+    time: 1420692388
+  /README.md:
+    md5: 806c0d09a592dfa685195a56406d3acf
+    time: 1420692388
   /sass/screen.scss:
-    md5: 686992ad5c435f3f66a22641f698f8f1
-    time: 1420579709
+    md5: 6aa936de38be7aa2acdf9dc0f5fabfa1
+    time: 1420692388
   /assets/home2.jpg:
     md5: 5401abc3d0767f5be6242f4fb3459491
     time: 1420579709
+  /assets/fruit.jpg:
+    md5: 373bbecbd01cd4dc88696f6fbc0cee13
+    time: 1420692389
   /assets/home3.jpg:
     md5: 38b71aa209265e104086504115009792
     time: 1420579709
+  /assets/c02.jpg:
+    md5: ce7cbd26569fa9e2a490e906122487ad
+    time: 1420692389
+  /assets/frog.jpg:
+    md5: 6f8422fe6d7784be0f30672bd761b887
+    time: 1420692389
