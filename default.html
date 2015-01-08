@@ -5,6 +5,24 @@
     <div class="bgWaterwood">
     	<div class="content contentHome container">
 
+    		<div class="newsBlock">
+
+    			<h2>Latest News:</h2>
+    			
+	    		{% for post in site.pages.news.posts limit:3 %}
+
+	    			<div>
+            			<h4><a href="{{post.url}}">{{post.title}}</a></h4>
+            			<p>{{post.date | date: "%b %d, %Y"}}{% if post.meta['end-date'] %}&nbsp;&mdash;&nbsp;{% endif %}{{post.meta['end-date']}}</p>
+            			<p>{{post.body | strip_html | truncatewords: 30}}</p>
+      <p><a href="{{post.url}}" class="btn">Read</a></p>
+    				</div>
+
+    			{% endfor %}
+
+
+    		</div>
+
 	      {{ body }}
 
 		</div><!-- /container -->

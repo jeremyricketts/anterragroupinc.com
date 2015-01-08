@@ -76,7 +76,7 @@ a, a:visited {
 	color: $brandColor;
 }
 h1, h2, h3, h4, h5 {
-	font-weight:lighter;
+	// font-weight:lighter;
 	margin-top:2em;
 	line-height:1.8rem;
 }
@@ -115,13 +115,33 @@ h1, h2, h3, h4, h5 {
     background-size: 100% auto;
 }
 .bgGenesis {
-	background:url(/img/bgGenesis2.jpg); background-color: #4f8735;
-	background-repeat: no-repeat;
-	background-position: center top;
-    background-size: 100% auto;
-    color:#efefef;
+	@include clearfix;
+	background-color: #eff7bc;
+    @media screen and (min-width: 780px) {
+		background-image:url(/img/bgGenesis.jpg); 
+		background-repeat: no-repeat;
+		background-position: center bottom;
+	    background-size: cover;
+	    padding-bottom:400px;
+	}
+    color:#24300b;
     a, a:visited {
-		color:#daff75;
+		color:#24300b;
+	}
+	.content {
+		@include clearfix;
+		background:rgba(255,255,255,.2);
+		padding:2em 40px;
+		margin-top:1em;
+		h1 {
+			margin-top:1em;
+		}
+		p img {
+			float:right;
+			max-width:250px;
+			margin:10px 0 10px 20px;
+			border:4px solid #fff;
+		}
 	}
 }
 
@@ -146,18 +166,15 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
-	//background-color: $brandColor;
-	//background-image:url(/img/header-bg.jpg);
-	background-color:$baseColor;
-	background-repeat: no-repeat;
-	background-position: top center;
+	@include clearfix;
+	background-color:#fff;
+	@media screen and (min-width: 780px) {
+		background-image: url(/img/drop1.jpg), url(/img/drop2.jpg), url(/img/drop3.jpg);
+		background-repeat: no-repeat;
+		background-position: 70% 70%, 90% 20%, 20% 50%;
+	}
 	text-align: center;
 	padding:80px 0 10px 0;
-	// color: $baseColor;
-	// a, a:visited {
-	// 	color:$baseColor;
-	// }
-	//}
 	.tagline {
 		margin:0 0 60px 0;
 		@extend .elegantType;
@@ -172,6 +189,8 @@ header {
 		padding:.5rem 1rem;
 		text-decoration: none;
 		font-weight: 700;
+		background:#efefef;
+		border-radius:4px;
 		@include transition(color, .2s);
 		&:hover {
 			color:$textColor;
@@ -183,17 +202,19 @@ header {
 		@media screen and (max-width: 780px) { // Tablet portrait
 			padding:.2rem .8rem;
 			margin-bottom: 1rem;
-			background:rgba(0,0,0,.2);
-			border-radius:4px;
 		}
 	}
-	&.subNav {
-		padding-top: 1em;
-		li a {
-			font-weight: 200;
-			&.active {
-				//text-decoration:underline;
-			}
+}
+.subNav {
+	padding: 1em 0;
+	background: #666666;
+	li a {
+		background:#535353;
+		border-radius:4px;
+		font-weight: 200;
+		color: $baseColor;
+		&.active, &:hover {
+			color:#fff;
 		}
 	}
 }
@@ -205,9 +226,12 @@ header {
 }
 
 footer {
-	background: darken($baseColor, 60%);
+	background:url(/img/water2.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+    background-size: 100% auto;
 	color: darken($baseColor, 30%);
-	padding:30px 0;
+	padding:150px 0 150px 0;
 	ul.hor-list li {
 		display:inline-block;
 		padding:0 10px;
@@ -446,7 +470,7 @@ footer {
 .contentArticleList {
 	article {
 		@include clearfix;
-		border-bottom:2px solid darken($baseColor, 4%);
+		border-bottom:1px solid darken($baseColor, 10%);
 		.date {
 			color: lighten($textColor, 30%);
 		} 
@@ -469,6 +493,7 @@ footer {
 }
 .dateLight {
 	color: lighten($textColor, 30%);
+	font-weight:200;
 }
 .contentArticleEntry {
 	.photo {
@@ -522,7 +547,33 @@ footer {
 }
 
 
-
+.newsBlock {
+	@media screen and (min-width: 700px) {
+		@include clearfix;
+		float:right; width:40%;
+		margin-left:20px;
+	}
+	margin-top:7em;
+	background:#fff;
+	h2 {
+		padding:1em 30px;
+		background:$brandColor;
+		color: $baseColor;
+		margin:0;
+	}
+	div {
+		margin:1em 30px;
+		border-bottom:1px solid #cccccc;
+		padding-bottom:1em;
+		&:last-child {
+			border:0;
+		}
+		p {
+			font-size:.8rem;
+			line-height: 1.2rem;
+		}
+	}
+}
 
 
 
