@@ -1,5 +1,5 @@
 ---
-time: 1420692888
+time: 1420851322
 inventory:
   /home/index.html:
     md5: 96e207bace1ab7bbe8756b38fe626e1e
@@ -14,38 +14,38 @@ inventory:
     md5: bde38f93f5d49e772909e4dbaddd2d2b
     time: 1420692384
   /news/anterra-maintains-exclusive-ownerhip-of-genesis-ac02-patent/index.html:
-    md5: 5ce2c254171a0130f09c79bb17c0cbd1
-    time: 1420692384
+    md5: f7ba6530489d79dab6da8e9990534cc5
+    time: 1420851318
   /news/omri-approves-genesis-ac02/index.html:
-    md5: 47ddc066381e822e8fbe58a0cd6a7ba1
-    time: 1420692384
+    md5: 5fbcef74a8f948bc267a7737c16fd2d9
+    time: 1420851318
   /news/genesis-aco2-patent-issues/index.html:
-    md5: 1e199139ffdbba8647f7a5bf350d38e4
-    time: 1420692384
+    md5: dfca8397a7d1bbd469d6775e27ccc1ab
+    time: 1420851318
   /news/anterra-makes-top-diversity-business-list-for-2009/index.html:
-    md5: bef191dd0c1e5726b40fb34d2edad0d4
-    time: 1420692384
+    md5: 5d42f1e1aeef11afffa106aaf4588422
+    time: 1420851318
   /news/raw-material-prices-continue-to-esclate/index.html:
-    md5: 42bcfd1df25cc1030f6f1271745622df
-    time: 1420692384
+    md5: f86e6fbba4e61138b86b2af0db5371e5
+    time: 1420851319
   /news/life-time-member-of-ccof/index.html:
-    md5: a7712dd249bcf0968decb88bd6f9f170
-    time: 1420692384
+    md5: a9cc0c67a575c4943fa0cd85b880a31f
+    time: 1420851319
   /news/diversity-business-awards-anterra-group-inc/index.html:
-    md5: 3635dc4971874d768454d85fe721f012
-    time: 1420692384
+    md5: dc4fc850f141f9664ab7d9fb13f704fb
+    time: 1420851319
   /news/rising-prices-for-sulfuric-acid/index.html:
-    md5: e22aa9bc88434854a9d5a4c243d9f724
-    time: 1420692384
+    md5: 0831bf4ab9812c3f5c4665502e5e4591
+    time: 1420851319
   /news/anterra-group-has-moved/index.html:
-    md5: e21ff31bb6ac0eae1e2e8f423fd13491
-    time: 1420692384
+    md5: 80e53ae6ec1bfc6abd5cc4ddb344d209
+    time: 1420851319
   /news/see-anterra-group-at-ccof-conference/index.html:
-    md5: de89f6094752a9558443fe9b59ed8f66
-    time: 1420692384
+    md5: 7aa4a3e9d8fd901b67ae15950158bb13
+    time: 1420851319
   /news/welcome-to-anterra-shea-jones/index.html:
-    md5: b32cfe92d3c44ba1004f233c59d87cef
-    time: 1420692384
+    md5: 7cd22057cbf3dc4079392b4f05431a69
+    time: 1420851319
   /news/archive/index.html:
     md5: 6de008e1f437ca53724858395709795b
     time: 1420692384
@@ -56,8 +56,8 @@ inventory:
     md5: dc61fc7f18b2f756c050a2230317b141
     time: 1420692385
   /contact/index.html:
-    md5: b2b3d9883f8afb0ad57a323fc13fbadb
-    time: 1420692385
+    md5: cf9fcbbd20a92c5d1aa55eccf7db42ff
+    time: 1420851319
   /privacy-policy/index.html:
     md5: 587fbcdcb6b5bd60729386856d14db52
     time: 1420692385
@@ -86,8 +86,8 @@ inventory:
     md5: 6318a6620acaeaa711ad090c912f0f3a
     time: 1420692385
   /feed.xml:
-    md5: 501008bb1000c4c54c8bf766ba793a53
-    time: 1420692888
+    md5: f881f161c4d19fab5400637b13b11b49
+    time: 1420851320
   /config.rb:
     md5: 1e34aa0a8533d12966298997aad5079f
     time: 1420579698
