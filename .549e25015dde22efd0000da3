@@ -1,5 +1,5 @@
 ---
-time: 1420851322
+time: 1422917552
 inventory:
   /home/index.html:
     md5: 96e207bace1ab7bbe8756b38fe626e1e
@@ -80,14 +80,14 @@ inventory:
     md5: 99c9f2d18c5350842b29b355cadc7f84
     time: 1420692385
   /CNAME:
-    md5: c288afd2005de0487ec5eb20017b1250
-    time: 1420579698
+    md5: dfd88d6be8fc7f3ba66b1dca80f1d35d
+    time: 1422917552
   /sitemap.xml:
-    md5: 6318a6620acaeaa711ad090c912f0f3a
-    time: 1420692385
+    md5: 5cd0c41cc46fbe873d82e07303039631
+    time: 1422917552
   /feed.xml:
-    md5: f881f161c4d19fab5400637b13b11b49
-    time: 1420851320
+    md5: 168fbaf4628c12afbf852ea18c5b57f1
+    time: 1422917552
   /config.rb:
     md5: 1e34aa0a8533d12966298997aad5079f
     time: 1420579698
