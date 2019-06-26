@@ -1,21 +1,24 @@
 ---
-time: 1561574701
+time: 1561577834
 inventory:
   "/home/index.html":
-    md5: e1afc2ff738017ca60a1dcd3cb8b21ce
-    time: 1561574691
+    md5: 46cdb120cc8e0e23ad83f96fe0244f78
+    time: 1561577830
   "/index.html":
-    md5: e1afc2ff738017ca60a1dcd3cb8b21ce
-    time: 1561574691
+    md5: 46cdb120cc8e0e23ad83f96fe0244f78
+    time: 1561577830
   "/services/index.html":
     md5: a3aeea6985e1638494bb9af5c0b5d203
     time: 1561574691
   "/news/index.html":
-    md5: 2535f78bd4f0f7cb10cae7bf0dacf13d
-    time: 1561574692
+    md5: e91f0acede6296956be53e8caca67b2f
+    time: 1561577831
   "/news/anterra-group-has-moved/index.html":
     md5: bf03247998906e38e73ab9df54f5302b
     time: 1561574692
+  "/news/harvest-equipment-cleaning/index.html":
+    md5: dd916641396bf68a588c890b295a2e39
+    time: 1561577831
   "/news/contract-cleaning-services-1/index.html":
     md5: c1a733100ce6c5624c6becfae3f06f6c
     time: 1561574692
@@ -41,11 +44,11 @@ inventory:
     md5: fab0d3079516c8ff38f668e3581d8745
     time: 1561574692
   "/news/tags/index.html":
-    md5: 1fb4074c201070daf8597ad302890a0a
-    time: 1561574692
+    md5: e213bafcc445ca5131c74773695f35b6
+    time: 1561577831
   "/news/tag-set-name/index.html":
-    md5: bf52c4c37b7bc3a490fa666df516974e
-    time: 1561574692
+    md5: bd765088625ccdc78fa530d2a99037fa
+    time: 1561577831
   "/genesis/index.html":
     md5: dc61fc7f18b2f756c050a2230317b141
     time: 1420692385
@@ -77,11 +80,11 @@ inventory:
     md5: dfd88d6be8fc7f3ba66b1dca80f1d35d
     time: 1422917552
   "/sitemap.xml":
-    md5: f6490ee9c3b927cdcb4d0ebc6bde5ef7
-    time: 1561574693
+    md5: 67b81ceddcc886723272ba559eb53d27
+    time: 1561577831
   "/feed.xml":
-    md5: d86b4239af86c731bd54c705a18f78e4
-    time: 1561574693
+    md5: 6004f5c8644454af6b5465d29e9c4e00
+    time: 1561577831
   "/config.rb":
     md5: 1e34aa0a8533d12966298997aad5079f
     time: 1420579698
