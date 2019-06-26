@@ -3,27 +3,57 @@
 
   <url>
     <loc>http://anterragroupinc.com/</loc>
-    <lastmod>2015-01-06T07:33:35+00:00</lastmod>
+    <lastmod>2019-06-26T18:12:00+00:00</lastmod>
     <priority>1.0</priority>
   </url>
   
 
   <url>
     <loc>http://anterragroupinc.com/services</loc>
-    <lastmod>2015-01-06T08:56:50+00:00</lastmod>
+    <lastmod>2019-06-26T18:39:20+00:00</lastmod>
     <priority>1.0</priority>
   </url>
   
 
   <url>
     <loc>http://anterragroupinc.com/news</loc>
-    <lastmod>2015-01-05T06:33:46+00:00</lastmod>
+    <lastmod>2019-06-26T17:12:55+00:00</lastmod>
     <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://anterragroupinc.com/news/anterra-group-has-moved</loc>
+    <lastmod>2019-06-26T18:08:51+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://anterragroupinc.com/news/contract-cleaning-services-1</loc>
+    <lastmod>2019-06-26T17:51:17+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://anterragroupinc.com/news/tomato-evaporator-cleaning</loc>
+    <lastmod>2019-06-26T18:32:46+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://anterragroupinc.com/news/organic-authorized-chemical-peal-additive</loc>
+    <lastmod>2019-06-26T18:35:02+00:00</lastmod>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://anterragroupinc.com/news/anterra-maintains-exclusive-ownerhip-of-genesis-ac02-patent</loc>
     <lastmod>2015-01-05T06:41:21+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://anterragroupinc.com/news/life-time-member-of-ccof</loc>
+    <lastmod>2019-06-26T18:33:58+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   
@@ -39,54 +69,6 @@
     <priority>0.5</priority>
   </url>
   
-  <url>
-    <loc>http://anterragroupinc.com/news/anterra-makes-top-diversity-business-list-for-2009</loc>
-    <lastmod>2015-01-05T06:52:31+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://anterragroupinc.com/news/raw-material-prices-continue-to-esclate</loc>
-    <lastmod>2015-01-05T06:45:37+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://anterragroupinc.com/news/life-time-member-of-ccof</loc>
-    <lastmod>2015-01-05T06:54:24+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://anterragroupinc.com/news/diversity-business-awards-anterra-group-inc</loc>
-    <lastmod>2015-01-05T07:07:48+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://anterragroupinc.com/news/rising-prices-for-sulfuric-acid</loc>
-    <lastmod>2015-01-05T06:48:14+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://anterragroupinc.com/news/anterra-group-has-moved</loc>
-    <lastmod>2015-01-05T06:57:24+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://anterragroupinc.com/news/see-anterra-group-at-ccof-conference</loc>
-    <lastmod>2015-01-05T07:02:04+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://anterragroupinc.com/news/welcome-to-anterra-shea-jones</loc>
-    <lastmod>2015-01-05T07:02:39+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
 
   <url>
     <loc>http://anterragroupinc.com/genesis</loc>
@@ -97,7 +79,7 @@
 
   <url>
     <loc>http://anterragroupinc.com/contact</loc>
-    <lastmod>2015-10-16T20:36:05+00:00</lastmod>
+    <lastmod>2019-06-26T18:43:55+00:00</lastmod>
     <priority>1.0</priority>
   </url>
   

@@ -1,72 +1,66 @@
 ---
-time: 1445027778
+time: 1561574701
 inventory:
   "/home/index.html":
-    md5: 96e207bace1ab7bbe8756b38fe626e1e
-    time: 1420692383
+    md5: e1afc2ff738017ca60a1dcd3cb8b21ce
+    time: 1561574691
   "/index.html":
-    md5: 96e207bace1ab7bbe8756b38fe626e1e
-    time: 1420692383
+    md5: e1afc2ff738017ca60a1dcd3cb8b21ce
+    time: 1561574691
   "/services/index.html":
-    md5: 9ce38d8c35f9c399d611c353f64df71e
-    time: 1420692383
+    md5: a3aeea6985e1638494bb9af5c0b5d203
+    time: 1561574691
   "/news/index.html":
-    md5: bde38f93f5d49e772909e4dbaddd2d2b
-    time: 1420692384
+    md5: 2535f78bd4f0f7cb10cae7bf0dacf13d
+    time: 1561574692
+  "/news/anterra-group-has-moved/index.html":
+    md5: bf03247998906e38e73ab9df54f5302b
+    time: 1561574692
+  "/news/contract-cleaning-services-1/index.html":
+    md5: c1a733100ce6c5624c6becfae3f06f6c
+    time: 1561574692
+  "/news/tomato-evaporator-cleaning/index.html":
+    md5: 0f932f36e3e440d9562eebc496c5203f
+    time: 1561574692
+  "/news/organic-authorized-chemical-peal-additive/index.html":
+    md5: f160be4d16b54285078a51c0b489a370
+    time: 1561574692
   "/news/anterra-maintains-exclusive-ownerhip-of-genesis-ac02-patent/index.html":
     md5: f7ba6530489d79dab6da8e9990534cc5
     time: 1420851318
+  "/news/life-time-member-of-ccof/index.html":
+    md5: b4f260af7319bfb0908dd9c954ecab52
+    time: 1561574692
   "/news/omri-approves-genesis-ac02/index.html":
     md5: 5fbcef74a8f948bc267a7737c16fd2d9
     time: 1420851318
   "/news/genesis-aco2-patent-issues/index.html":
     md5: dfca8397a7d1bbd469d6775e27ccc1ab
     time: 1420851318
-  "/news/anterra-makes-top-diversity-business-list-for-2009/index.html":
-    md5: 5d42f1e1aeef11afffa106aaf4588422
-    time: 1420851318
-  "/news/raw-material-prices-continue-to-esclate/index.html":
-    md5: f86e6fbba4e61138b86b2af0db5371e5
-    time: 1420851319
-  "/news/life-time-member-of-ccof/index.html":
-    md5: a9cc0c67a575c4943fa0cd85b880a31f
-    time: 1420851319
-  "/news/diversity-business-awards-anterra-group-inc/index.html":
-    md5: dc4fc850f141f9664ab7d9fb13f704fb
-    time: 1420851319
-  "/news/rising-prices-for-sulfuric-acid/index.html":
-    md5: 0831bf4ab9812c3f5c4665502e5e4591
-    time: 1420851319
-  "/news/anterra-group-has-moved/index.html":
-    md5: 80e53ae6ec1bfc6abd5cc4ddb344d209
-    time: 1420851319
-  "/news/see-anterra-group-at-ccof-conference/index.html":
-    md5: 7aa4a3e9d8fd901b67ae15950158bb13
-    time: 1420851319
-  "/news/welcome-to-anterra-shea-jones/index.html":
-    md5: 7cd22057cbf3dc4079392b4f05431a69
-    time: 1420851319
   "/news/archive/index.html":
-    md5: 6de008e1f437ca53724858395709795b
-    time: 1420692384
+    md5: fab0d3079516c8ff38f668e3581d8745
+    time: 1561574692
   "/news/tags/index.html":
-    md5: 55c5b4ad8b80d592a0a38324c3ded4a3
-    time: 1420692384
+    md5: 1fb4074c201070daf8597ad302890a0a
+    time: 1561574692
+  "/news/tag-set-name/index.html":
+    md5: bf52c4c37b7bc3a490fa666df516974e
+    time: 1561574692
   "/genesis/index.html":
     md5: dc61fc7f18b2f756c050a2230317b141
     time: 1420692385
   "/contact/index.html":
-    md5: c362db435844dc8fafaa97eb2b75e788
-    time: 1445027774
+    md5: c5f75c2b1084c2f1fb20f721507bf254
+    time: 1561574692
   "/privacy-policy/index.html":
-    md5: 587fbcdcb6b5bd60729386856d14db52
-    time: 1420692385
+    md5: 042f5820e90cdf1dee3a8e69b40f607c
+    time: 1561574692
   "/thanks/index.html":
     md5: 2b8bf618e2fd96700112ba90eea11d0e
     time: 1420692887
   "/services/cleaning/index.html":
-    md5: f81bd3147b3a032f61935d8b98e9bad0
-    time: 1420692385
+    md5: bc7a794cfe325813ae2c44498dc1059b
+    time: 1561574692
   "/services/organic-food-processing/index.html":
     md5: da06b387b0457cf121760dc0fdc4a83b
     time: 1420692385
@@ -77,17 +71,17 @@ inventory:
     md5: 5299ef149744e444474725ceb4f5df0a
     time: 1420692385
   "/services/consulting/index.html":
-    md5: 99c9f2d18c5350842b29b355cadc7f84
-    time: 1420692385
+    md5: b822f24c8887c4919e676d607086f229
+    time: 1561574693
   "/CNAME":
     md5: dfd88d6be8fc7f3ba66b1dca80f1d35d
     time: 1422917552
   "/sitemap.xml":
-    md5: e3bd6d46a34ec412619e87e4078f049b
-    time: 1445027776
+    md5: f6490ee9c3b927cdcb4d0ebc6bde5ef7
+    time: 1561574693
   "/feed.xml":
-    md5: 1b2e7eb9f2c95fbe85e2d556f3ee447b
-    time: 1445027776
+    md5: d86b4239af86c731bd54c705a18f78e4
+    time: 1561574693
   "/config.rb":
     md5: 1e34aa0a8533d12966298997aad5079f
     time: 1420579698
