@@ -1,18 +1,21 @@
 ---
-time: 1561579795
+time: 1584217695
 inventory:
   "/home/index.html":
-    md5: b8f976414f3408c93439400400347c6f
-    time: 1561579793
+    md5: 2fb35e40b5fcc072f9eacb61a162a5a4
+    time: 1584217690
   "/index.html":
-    md5: b8f976414f3408c93439400400347c6f
-    time: 1561579793
+    md5: 2fb35e40b5fcc072f9eacb61a162a5a4
+    time: 1584217690
   "/services/index.html":
     md5: a3aeea6985e1638494bb9af5c0b5d203
     time: 1561574691
   "/news/index.html":
-    md5: b1c5bd9c374aa4e7c820116a673876c0
-    time: 1561577918
+    md5: 4dd45d6b7a97fab3d402319f30d48bf6
+    time: 1584217691
+  "/news/coronavirus-covid-19/index.html":
+    md5: 7c3e02fde9151d4d0682deaa506539dd
+    time: 1584217691
   "/news/anterra-group-has-moved/index.html":
     md5: bf03247998906e38e73ab9df54f5302b
     time: 1561574692
@@ -44,11 +47,11 @@ inventory:
     md5: fab0d3079516c8ff38f668e3581d8745
     time: 1561574692
   "/news/tags/index.html":
-    md5: 6f3a30d248492ac48fc88d2cb40da661
-    time: 1561577918
+    md5: 45a1c8280b14db445cafeeff42321a4e
+    time: 1584217691
   "/news/tag-set-name/index.html":
-    md5: 2a58682f252f13e9e7ddebb75a818f60
-    time: 1561577918
+    md5: c72fc3a60910b21f7e02dec7245b4647
+    time: 1584217691
   "/genesis/index.html":
     md5: dc61fc7f18b2f756c050a2230317b141
     time: 1420692385
@@ -80,11 +83,11 @@ inventory:
     md5: dfd88d6be8fc7f3ba66b1dca80f1d35d
     time: 1422917552
   "/sitemap.xml":
-    md5: b5707ada1f4f6e71c324c422dbad4744
-    time: 1561579794
+    md5: e8d1f2efdc7bc7a7bdfb34312e761444
+    time: 1584217692
   "/feed.xml":
-    md5: b87270a8a4bbefb1e097afb416ad5a8a
-    time: 1561579794
+    md5: 4b2442093e126ebdf797c1346c088bed
+    time: 1584217692
   "/config.rb":
     md5: 1e34aa0a8533d12966298997aad5079f
     time: 1420579698
