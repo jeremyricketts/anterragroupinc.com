@@ -1,5 +1,5 @@
 ---
-time: 1584217695
+time: 1584812091
 inventory:
   "/home/index.html":
     md5: 2fb35e40b5fcc072f9eacb61a162a5a4
@@ -8,8 +8,8 @@ inventory:
     md5: 2fb35e40b5fcc072f9eacb61a162a5a4
     time: 1584217690
   "/services/index.html":
-    md5: a3aeea6985e1638494bb9af5c0b5d203
-    time: 1561574691
+    md5: 947b653ab4b06f169aed7094c8d40702
+    time: 1584812087
   "/news/index.html":
     md5: 4dd45d6b7a97fab3d402319f30d48bf6
     time: 1584217691
@@ -65,20 +65,23 @@ inventory:
     md5: 2b8bf618e2fd96700112ba90eea11d0e
     time: 1420692887
   "/services/cleaning/index.html":
-    md5: bc7a794cfe325813ae2c44498dc1059b
-    time: 1561574692
+    md5: e736540bfadb82d6daa9f10794570ded
+    time: 1584812088
   "/services/organic-food-processing/index.html":
-    md5: da06b387b0457cf121760dc0fdc4a83b
-    time: 1420692385
+    md5: 19b925db57e57ee96d577155bfbbe085
+    time: 1584812088
   "/services/waste-water-treatment/index.html":
-    md5: 53df7fbc34449f85e26f77529edf6b1f
-    time: 1420692385
+    md5: 189a240754f725dbdc582d6c8c918591
+    time: 1584812088
   "/services/water-treatment/index.html":
-    md5: 5299ef149744e444474725ceb4f5df0a
-    time: 1420692385
+    md5: 1f4ec71401b60a1f3b016899fc7952a1
+    time: 1584812088
   "/services/consulting/index.html":
-    md5: b822f24c8887c4919e676d607086f229
-    time: 1561574693
+    md5: 3c7ba0ece978d755997bc2a4c53395a9
+    time: 1584812088
+  "/news/message-from-president-and-ceo-of-united-fresh-produce-tom-stenzel-regarding-covid-19/index.html":
+    md5: 8cf370c13a0568fa2e74f25a04a0f68f
+    time: 1584812088
   "/CNAME":
     md5: dfd88d6be8fc7f3ba66b1dca80f1d35d
     time: 1422917552
@@ -86,8 +89,8 @@ inventory:
     md5: e8d1f2efdc7bc7a7bdfb34312e761444
     time: 1584217692
   "/feed.xml":
-    md5: 4b2442093e126ebdf797c1346c088bed
-    time: 1584217692
+    md5: c05dfb220f5831e04ca730b194577b93
+    time: 1584812088
   "/config.rb":
     md5: 1e34aa0a8533d12966298997aad5079f
     time: 1420579698
