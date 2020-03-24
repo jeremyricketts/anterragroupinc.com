@@ -1,5 +1,5 @@
 ---
-time: 1585070822
+time: 1585071232
 inventory:
   "/home/index.html":
     md5: 8c8d1f7ef584ee4e7e1376fb275e2c80
@@ -11,11 +11,11 @@ inventory:
     md5: 947b653ab4b06f169aed7094c8d40702
     time: 1584812087
   "/news/index.html":
-    md5: 25e2b3d3ac47d7ea19efc32d5463c487
-    time: 1585070740
+    md5: b6c1070decf618431e5b960620792962
+    time: 1585071218
   "/news/coronavirus-protection-and-inactivation/index.html":
-    md5: 5d1e8590d569bbd3d65ded6058da26cd
-    time: 1585070740
+    md5: 76c21a4a2974fad3c0cabc8415c8224b
+    time: 1585071218
   "/news/united-fresh-produce-ceo-message-regarding-covid-19/index.html":
     md5: 1f7a15deea1264a6b9bee76aa7dc896e
     time: 1584812546
@@ -53,14 +53,14 @@ inventory:
     md5: fab0d3079516c8ff38f668e3581d8745
     time: 1561574692
   "/news/tags/index.html":
-    md5: 603b705c7ded8210827467e3f6cb7099
-    time: 1585070741
+    md5: d0e04dd8de69adb255670ea14d61f74d
+    time: 1585071218
   "/news/coronavirus-inactivation/index.html":
-    md5: 3f9c85a58ae3d230f4089fc2bca20509
-    time: 1585070820
+    md5: 30f4380d982c5661aef294a1ed4c4b8e
+    time: 1585071218
   "/news/tag-set-name/index.html":
-    md5: 5f21619a7c6fa378d4473db924a690fc
-    time: 1585070741
+    md5: 72a35ff27326339bc77ecf7b186546f5
+    time: 1585071218
   "/genesis/index.html":
     md5: dc61fc7f18b2f756c050a2230317b141
     time: 1420692385
@@ -89,8 +89,8 @@ inventory:
     md5: 3c7ba0ece978d755997bc2a4c53395a9
     time: 1584812088
   "/news/message-from-president-and-ceo-of-united-fresh-produce-tom-stenzel-regarding-covid-19/index.html":
-    md5: c8140e8918671e56bb0b77178231fa80
-    time: 1585070741
+    md5: a632e89926a08bcba4e8035e20febdf0
+    time: 1585071219
   "/CNAME":
     md5: dfd88d6be8fc7f3ba66b1dca80f1d35d
     time: 1422917552
@@ -98,8 +98,8 @@ inventory:
     md5: cedad6e136febdc91d7423f5980bd590
     time: 1585070821
   "/feed.xml":
-    md5: e43fae136fdebaefbee2a279a56d06a1
-    time: 1585070821
+    md5: 4ce7ae55646cd2f8f74f51f8a0cfd0ed
+    time: 1585071219
   "/config.rb":
     md5: 1e34aa0a8533d12966298997aad5079f
     time: 1420579698
@@ -256,9 +256,9 @@ inventory:
   "/sass/screen.scss":
     md5: 6aa936de38be7aa2acdf9dc0f5fabfa1
     time: 1420692388
-  "/assets/Fogging video #2.mp4":
-    md5: 2d1e2e056a77491138aa2b8b783145a2
-    time: 1585070741
+  "/assets/Fogging Video 2020.mp4":
+    md5: 80c78c0872bb947b0cb85379ad6913fe
+    time: 1585071219
   "/assets/home2.jpg":
     md5: 5401abc3d0767f5be6242f4fb3459491
     time: 1420579709
