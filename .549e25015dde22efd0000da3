@@ -1,18 +1,21 @@
 ---
-time: 1584812550
+time: 1585070263
 inventory:
   "/home/index.html":
-    md5: 802d8403e07105ef2f096f8381283b56
-    time: 1584812545
+    md5: de6c70a854a73493027e80e1b2c80ecc
+    time: 1585070249
   "/index.html":
-    md5: 802d8403e07105ef2f096f8381283b56
-    time: 1584812545
+    md5: de6c70a854a73493027e80e1b2c80ecc
+    time: 1585070249
   "/services/index.html":
     md5: 947b653ab4b06f169aed7094c8d40702
     time: 1584812087
   "/news/index.html":
-    md5: b8b2999014ffa80188aded4c0a4f3d13
-    time: 1584812546
+    md5: dc59b3a39af591aeea79282c99102104
+    time: 1585070250
+  "/news/coronavirus-protection-and-inactivation/index.html":
+    md5: 2759a5364701447a7cafde91a42f53ea
+    time: 1585070250
   "/news/united-fresh-produce-ceo-message-regarding-covid-19/index.html":
     md5: 1f7a15deea1264a6b9bee76aa7dc896e
     time: 1584812546
@@ -50,11 +53,11 @@ inventory:
     md5: fab0d3079516c8ff38f668e3581d8745
     time: 1561574692
   "/news/tags/index.html":
-    md5: a84364ccb775855afd85dc6f5e3e5394
-    time: 1584812546
+    md5: bfb2b35371ded6b39dcf569b428f4118
+    time: 1585070250
   "/news/tag-set-name/index.html":
-    md5: d8d845bd8a85f1663cb2ab140f81158e
-    time: 1584812546
+    md5: f860c42d41d2793d194235c10cf2b8a8
+    time: 1585070250
   "/genesis/index.html":
     md5: dc61fc7f18b2f756c050a2230317b141
     time: 1420692385
@@ -83,17 +86,17 @@ inventory:
     md5: 3c7ba0ece978d755997bc2a4c53395a9
     time: 1584812088
   "/news/message-from-president-and-ceo-of-united-fresh-produce-tom-stenzel-regarding-covid-19/index.html":
-    md5: 9487a937c7899f233c345bd0abfeed40
-    time: 1584812546
+    md5: 74550746d19e40b228aebf574089506e
+    time: 1585070250
   "/CNAME":
     md5: dfd88d6be8fc7f3ba66b1dca80f1d35d
     time: 1422917552
   "/sitemap.xml":
-    md5: 435dd0390d06e19b947d31ede80883d3
-    time: 1584812546
+    md5: c784820419e7178dbe8e7d4ddcce7ab7
+    time: 1585070250
   "/feed.xml":
-    md5: dba4e237324a6b9abf7f6a958e911457
-    time: 1584812546
+    md5: f27908ca22c1d366fbf8602951c08c16
+    time: 1585070250
   "/config.rb":
     md5: 1e34aa0a8533d12966298997aad5079f
     time: 1420579698
@@ -250,6 +253,9 @@ inventory:
   "/sass/screen.scss":
     md5: 6aa936de38be7aa2acdf9dc0f5fabfa1
     time: 1420692388
+  "/assets/Fogging Video 2020.mp4":
+    md5: 80c78c0872bb947b0cb85379ad6913fe
+    time: 1585070251
   "/assets/home2.jpg":
     md5: 5401abc3d0767f5be6242f4fb3459491
     time: 1420579709
