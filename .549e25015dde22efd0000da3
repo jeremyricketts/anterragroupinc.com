@@ -1,5 +1,5 @@
 ---
-time: 1585070749
+time: 1585070822
 inventory:
   "/home/index.html":
     md5: 8c8d1f7ef584ee4e7e1376fb275e2c80
@@ -55,6 +55,9 @@ inventory:
   "/news/tags/index.html":
     md5: 603b705c7ded8210827467e3f6cb7099
     time: 1585070741
+  "/news/coronavirus-inactivation/index.html":
+    md5: 3f9c85a58ae3d230f4089fc2bca20509
+    time: 1585070820
   "/news/tag-set-name/index.html":
     md5: 5f21619a7c6fa378d4473db924a690fc
     time: 1585070741
@@ -92,11 +95,11 @@ inventory:
     md5: dfd88d6be8fc7f3ba66b1dca80f1d35d
     time: 1422917552
   "/sitemap.xml":
-    md5: bad9ca2dbd220040a862369e33b17447
-    time: 1585070421
+    md5: cedad6e136febdc91d7423f5980bd590
+    time: 1585070821
   "/feed.xml":
-    md5: 7cefe3cc8dc280560f81641e68fcc2f4
-    time: 1585070741
+    md5: e43fae136fdebaefbee2a279a56d06a1
+    time: 1585070821
   "/config.rb":
     md5: 1e34aa0a8533d12966298997aad5079f
     time: 1420579698
