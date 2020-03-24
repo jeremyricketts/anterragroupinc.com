@@ -1,21 +1,21 @@
 ---
-time: 1585070263
+time: 1585070425
 inventory:
   "/home/index.html":
-    md5: de6c70a854a73493027e80e1b2c80ecc
-    time: 1585070249
+    md5: 8c8d1f7ef584ee4e7e1376fb275e2c80
+    time: 1585070419
   "/index.html":
-    md5: de6c70a854a73493027e80e1b2c80ecc
-    time: 1585070249
+    md5: 8c8d1f7ef584ee4e7e1376fb275e2c80
+    time: 1585070419
   "/services/index.html":
     md5: 947b653ab4b06f169aed7094c8d40702
     time: 1584812087
   "/news/index.html":
-    md5: dc59b3a39af591aeea79282c99102104
-    time: 1585070250
+    md5: b6c1070decf618431e5b960620792962
+    time: 1585070420
   "/news/coronavirus-protection-and-inactivation/index.html":
-    md5: 2759a5364701447a7cafde91a42f53ea
-    time: 1585070250
+    md5: 76c21a4a2974fad3c0cabc8415c8224b
+    time: 1585070420
   "/news/united-fresh-produce-ceo-message-regarding-covid-19/index.html":
     md5: 1f7a15deea1264a6b9bee76aa7dc896e
     time: 1584812546
@@ -53,11 +53,11 @@ inventory:
     md5: fab0d3079516c8ff38f668e3581d8745
     time: 1561574692
   "/news/tags/index.html":
-    md5: bfb2b35371ded6b39dcf569b428f4118
-    time: 1585070250
+    md5: d0e04dd8de69adb255670ea14d61f74d
+    time: 1585070420
   "/news/tag-set-name/index.html":
-    md5: f860c42d41d2793d194235c10cf2b8a8
-    time: 1585070250
+    md5: 72a35ff27326339bc77ecf7b186546f5
+    time: 1585070420
   "/genesis/index.html":
     md5: dc61fc7f18b2f756c050a2230317b141
     time: 1420692385
@@ -86,17 +86,17 @@ inventory:
     md5: 3c7ba0ece978d755997bc2a4c53395a9
     time: 1584812088
   "/news/message-from-president-and-ceo-of-united-fresh-produce-tom-stenzel-regarding-covid-19/index.html":
-    md5: 74550746d19e40b228aebf574089506e
-    time: 1585070250
+    md5: a632e89926a08bcba4e8035e20febdf0
+    time: 1585070421
   "/CNAME":
     md5: dfd88d6be8fc7f3ba66b1dca80f1d35d
     time: 1422917552
   "/sitemap.xml":
-    md5: c784820419e7178dbe8e7d4ddcce7ab7
-    time: 1585070250
+    md5: bad9ca2dbd220040a862369e33b17447
+    time: 1585070421
   "/feed.xml":
-    md5: f27908ca22c1d366fbf8602951c08c16
-    time: 1585070250
+    md5: 73ec239db2dd076a566ed6dd9709e724
+    time: 1585070421
   "/config.rb":
     md5: 1e34aa0a8533d12966298997aad5079f
     time: 1420579698
